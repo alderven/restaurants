@@ -1,0 +1,21 @@
+[ {
+  "uid" : "143b8d783829fb04",
+  "name" : "test_restaurants_get",
+  "time" : {
+    "start" : 1537868725453,
+    "stop" : 1537868725721,
+    "duration" : 268
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "3c15a2a4603da5b8",
+  "name" : "test_restaurants_add",
+  "time" : {
+    "start" : 1537868725076,
+    "stop" : 1537868725445,
+    "duration" : 369
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

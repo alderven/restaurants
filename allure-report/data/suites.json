@@ -1,0 +1,41 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "restaurants",
+    "children" : [ {
+      "name" : "test_restaurants_add_and_get",
+      "children" : [ {
+        "name" : "TestDefaultController",
+        "children" : [ {
+          "name" : "test_restaurants_add",
+          "uid" : "3c15a2a4603da5b8",
+          "parentUid" : "cd47619b0e9e780401300fb9a8902b69",
+          "status" : "passed",
+          "time" : {
+            "start" : 1537868725076,
+            "stop" : 1537868725445,
+            "duration" : 369
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_restaurants_get",
+          "uid" : "143b8d783829fb04",
+          "parentUid" : "cd47619b0e9e780401300fb9a8902b69",
+          "status" : "passed",
+          "time" : {
+            "start" : 1537868725453,
+            "stop" : 1537868725721,
+            "duration" : 268
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "cd47619b0e9e780401300fb9a8902b69"
+      } ],
+      "uid" : "c1e81455e49cecab7b5e7622b18a829f"
+    } ],
+    "uid" : "d3682301e83cdbcb10a0681fe9ad58ca"
+  } ]
+}

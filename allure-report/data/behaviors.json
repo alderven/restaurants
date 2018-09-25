@@ -1,0 +1,37 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Restaurants",
+    "children" : [ {
+      "name" : "Test restaurants add and get",
+      "children" : [ {
+        "name" : "test_restaurants_add",
+        "uid" : "3c15a2a4603da5b8",
+        "parentUid" : "341d6e4de763635306265c0fc1d3548a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1537868725076,
+          "stop" : 1537868725445,
+          "duration" : 369
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_restaurants_get",
+        "uid" : "143b8d783829fb04",
+        "parentUid" : "341d6e4de763635306265c0fc1d3548a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1537868725453,
+          "stop" : 1537868725721,
+          "duration" : 268
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "341d6e4de763635306265c0fc1d3548a"
+    } ],
+    "uid" : "030d3294cce504425205ca62d8d603b0"
+  } ]
+}

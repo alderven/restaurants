@@ -1,0 +1,186 @@
+---
+swagger: "2.0"
+info:
+  version: "1"
+  title: "Restaurant API"
+host: "restaurant-api.test"
+schemes:
+- "https"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /restaurants:
+    get:
+      description: "Returns list of restaurants"
+      operationId: "restaurants_get"
+      parameters:
+      - name: "id"
+        in: "query"
+        description: "Filter by restaurant id"
+        required: false
+        type: "integer"
+      - name: "zipcode"
+        in: "query"
+        description: "Filter by zipcode"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "Successful response"
+          schema:
+            $ref: "#/definitions/RestaurantListResponse"
+        400:
+          description: "Bad request"
+        500:
+          description: "Unexpected error"
+      x-swagger-router-controller: "swagger_server.controllers.default_controller"
+    post:
+      description: "Creates a new restaurant"
+      operationId: "restaurants_post"
+      consumes:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "restaurant"
+        required: true
+        schema:
+          $ref: "#/definitions/Restaurant"
+      responses:
+        201:
+          description: "Successful response"
+          schema:
+            $ref: "#/definitions/Restaurant"
+        400:
+          description: "Bad request"
+        500:
+          description: "Unexpected error"
+      x-swagger-router-controller: "swagger_server.controllers.default_controller"
+definitions:
+  Address:
+    required:
+    - "city"
+    - "street"
+    - "zipcode"
+    properties:
+      zipcode:
+        type: "string"
+        example: "10117"
+        description: "Zipcode a.k.a. postcode"
+        minLength: 5
+        maxLength: 5
+      city:
+        type: "string"
+        example: "Berlin"
+        description: "City name"
+      street:
+        type: "string"
+        example: "Oranienburger Str. 70"
+        description: "Street name and number"
+      latitude:
+        type: "number"
+        format: "double"
+        example: 52.52478099999999727742761024273931980133056640625
+        description: "Address latitude"
+      longitude:
+        type: "number"
+        format: "double"
+        example: 13.393045000000000754880602471530437469482421875
+        description: "Address longitude"
+    example:
+      zipcode: "10117"
+      city: "Berlin"
+      street: "Oranienburger Str. 70"
+      latitude: 52.52478099999999727742761024273931980133056640625
+      longitude: 13.393045000000000754880602471530437469482421875
+  Restaurant:
+    required:
+    - "address"
+    - "name"
+    - "owner"
+    properties:
+      id:
+        type: "integer"
+        example: 123456
+        description: "Internal ID of a restaurant"
+      name:
+        type: "string"
+        example: "Cool restaurant"
+        description: "Name of a restaurant"
+      address:
+        $ref: "#/definitions/Address"
+      owner:
+        type: "string"
+        example: "Mr. John Doe"
+        description: "Owner name"
+      emails:
+        type: "array"
+        items:
+          type: "string"
+          format: "email"
+          example: "cool-restaurant@gmail.com"
+          description: "Email of a restaurant"
+      phones:
+        type: "array"
+        items:
+          type: "string"
+          format: "phone"
+          example: "+49123456789"
+          description: "Phone of a restaurant (international format)"
+    example:
+      owner: "Mr. John Doe"
+      emails:
+      - "cool-restaurant@gmail.com"
+      - "cool-restaurant@gmail.com"
+      address:
+        zipcode: "10117"
+        city: "Berlin"
+        street: "Oranienburger Str. 70"
+        latitude: 52.52478099999999727742761024273931980133056640625
+        longitude: 13.393045000000000754880602471530437469482421875
+      name: "Cool restaurant"
+      phones:
+      - "+49123456789"
+      - "+49123456789"
+      id: 123456
+  RestaurantListResponse:
+    required:
+    - "restaurants"
+    properties:
+      restaurants:
+        type: "array"
+        items:
+          $ref: "#/definitions/Restaurant"
+    example:
+      restaurants:
+      - owner: "Mr. John Doe"
+        emails:
+        - "cool-restaurant@gmail.com"
+        - "cool-restaurant@gmail.com"
+        address:
+          zipcode: "10117"
+          city: "Berlin"
+          street: "Oranienburger Str. 70"
+          latitude: 52.52478099999999727742761024273931980133056640625
+          longitude: 13.393045000000000754880602471530437469482421875
+        name: "Cool restaurant"
+        phones:
+        - "+49123456789"
+        - "+49123456789"
+        id: 123456
+      - owner: "Mr. John Doe"
+        emails:
+        - "cool-restaurant@gmail.com"
+        - "cool-restaurant@gmail.com"
+        address:
+          zipcode: "10117"
+          city: "Berlin"
+          street: "Oranienburger Str. 70"
+          latitude: 52.52478099999999727742761024273931980133056640625
+          longitude: 13.393045000000000754880602471530437469482421875
+        name: "Cool restaurant"
+        phones:
+        - "+49123456789"
+        - "+49123456789"
+        id: 123456

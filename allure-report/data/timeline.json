@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Darina",
+    "children" : [ {
+      "name" : "692-MainThread",
+      "children" : [ {
+        "name" : "test_restaurants_add",
+        "uid" : "3c15a2a4603da5b8",
+        "parentUid" : "e1e4ec0ebee309cbd1ac5b21384306ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1537868725076,
+          "stop" : 1537868725445,
+          "duration" : 369
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_restaurants_get",
+        "uid" : "143b8d783829fb04",
+        "parentUid" : "e1e4ec0ebee309cbd1ac5b21384306ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1537868725453,
+          "stop" : 1537868725721,
+          "duration" : 268
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e1e4ec0ebee309cbd1ac5b21384306ff"
+    } ],
+    "uid" : "47981804ec655031b71058b7a5912936"
+  } ]
+}

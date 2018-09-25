@@ -1,0 +1,72 @@
+{
+  "uid" : "143b8d783829fb04",
+  "name" : "test_restaurants_get",
+  "fullName" : "restaurants.test_restaurants_add_and_get.TestDefaultController#test_restaurants_get",
+  "historyId" : "295967e270013945b1074d3cf74d3945",
+  "time" : {
+    "start" : 1537868725453,
+    "stop" : 1537868725721,
+    "duration" : 268
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Test restaurants add and get"
+  }, {
+    "name" : "feature",
+    "value" : "Restaurants"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "restaurants"
+  }, {
+    "name" : "suite",
+    "value" : "test_restaurants_add_and_get"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDefaultController"
+  }, {
+    "name" : "host",
+    "value" : "Darina"
+  }, {
+    "name" : "thread",
+    "value" : "692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "restaurants.test_restaurants_add_and_get"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "3ec937791d2197b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537868579556,
+        "stop" : 1537868579825,
+        "duration" : 269
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "143b8d783829fb04.json",
+  "parameterValues" : [ ]
+}
