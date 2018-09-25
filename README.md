@@ -2,7 +2,7 @@
 
 This project contains simple API test and [Allure Report](https://cdn.rawgit.com/alderven/restaurants/master/allure-report/index.html) based on [Swagger doc](https://gist.github.com/catherine-v/12a723fc2247a4bdaf8c275dd64421ed)
 
-Swagger server generated manually using [Swagger Editor](https://editor.swagger.io). It can also be generated programatically via [Swagger Server Stub Generator](https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto) and included into CI workflow.
+Swagger server generated manually using [Swagger Editor](https://editor.swagger.io). It can also be integrated into CI by using [Swagger Server Stub Generator](https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto).
 
 # Test Case and Test Result:
 № | Test Script                                                                                                           | Test description        | Run Result                                                                                                       
