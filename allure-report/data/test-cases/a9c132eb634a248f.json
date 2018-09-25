@@ -1,0 +1,104 @@
+{
+  "uid" : "a9c132eb634a248f",
+  "name" : "test_restaurants_get",
+  "fullName" : "restaurants.test_restaurants_add_and_get.TestDefaultController#test_restaurants_get",
+  "historyId" : "295967e270013945b1074d3cf74d3945",
+  "time" : {
+    "start" : 1537870933163,
+    "stop" : 1537870933433,
+    "duration" : 270
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Get restaurant with following parameters: [('id', 56), ('zipcode', 'zipcode_example')]",
+      "time" : {
+        "start" : 1537870933431,
+        "stop" : 1537870933433,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "2. Check, that response code is 200",
+      "time" : {
+        "start" : 1537870933433,
+        "stop" : 1537870933433,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Add and get restaurants"
+  }, {
+    "name" : "feature",
+    "value" : "Restaurants"
+  }, {
+    "name" : "parentSuite",
+    "value" : "restaurants"
+  }, {
+    "name" : "suite",
+    "value" : "test_restaurants_add_and_get"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDefaultController"
+  }, {
+    "name" : "host",
+    "value" : "Darina"
+  }, {
+    "name" : "thread",
+    "value" : "4716-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "restaurants.test_restaurants_add_and_get"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9c132eb634a248f.json",
+  "parameterValues" : [ ]
+}

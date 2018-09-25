@@ -5,25 +5,25 @@
     "name" : "restaurants.test_restaurants_add_and_get",
     "children" : [ {
       "name" : "test_restaurants_add",
-      "uid" : "3c15a2a4603da5b8",
+      "uid" : "769e1442434ef5e6",
       "parentUid" : "36bd0829b66f92907c9680287a91b4ec",
       "status" : "passed",
       "time" : {
-        "start" : 1537868725076,
-        "stop" : 1537868725445,
+        "start" : 1537870932786,
+        "stop" : 1537870933155,
         "duration" : 369
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "test_restaurants_get",
-      "uid" : "143b8d783829fb04",
+      "uid" : "a9c132eb634a248f",
       "parentUid" : "36bd0829b66f92907c9680287a91b4ec",
       "status" : "passed",
       "time" : {
-        "start" : 1537868725453,
-        "stop" : 1537868725721,
-        "duration" : 268
+        "start" : 1537870933163,
+        "stop" : 1537870933433,
+        "duration" : 270
       },
       "flaky" : false,
       "parameters" : [ ]

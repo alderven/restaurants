@@ -4,33 +4,33 @@
   "children" : [ {
     "name" : "Restaurants",
     "children" : [ {
-      "name" : "Test restaurants add and get",
+      "name" : "Add and get restaurants",
       "children" : [ {
         "name" : "test_restaurants_add",
-        "uid" : "3c15a2a4603da5b8",
-        "parentUid" : "341d6e4de763635306265c0fc1d3548a",
+        "uid" : "769e1442434ef5e6",
+        "parentUid" : "3148d55dcb6490d60b498a03b4e46cc6",
         "status" : "passed",
         "time" : {
-          "start" : 1537868725076,
-          "stop" : 1537868725445,
+          "start" : 1537870932786,
+          "stop" : 1537870933155,
           "duration" : 369
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_restaurants_get",
-        "uid" : "143b8d783829fb04",
-        "parentUid" : "341d6e4de763635306265c0fc1d3548a",
+        "uid" : "a9c132eb634a248f",
+        "parentUid" : "3148d55dcb6490d60b498a03b4e46cc6",
         "status" : "passed",
         "time" : {
-          "start" : 1537868725453,
-          "stop" : 1537868725721,
-          "duration" : 268
+          "start" : 1537870933163,
+          "stop" : 1537870933433,
+          "duration" : 270
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "341d6e4de763635306265c0fc1d3548a"
+      "uid" : "3148d55dcb6490d60b498a03b4e46cc6"
     } ],
     "uid" : "030d3294cce504425205ca62d8d603b0"
   } ]
