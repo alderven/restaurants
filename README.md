@@ -1,12 +1,14 @@
 # General information
 
 This project contains simple API test and [Allure Report](https://cdn.rawgit.com/alderven/restaurants/master/allure-report/index.html) based on [Swagger doc](https://gist.github.com/catherine-v/12a723fc2247a4bdaf8c275dd64421ed)
-Swagger server generated manually using [Editor](https://editor.swagger.io). It can also be generated programatically via [Swagger Server Stub Generator](https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto)
+
+Swagger server generated manually using [Swagger Editor](https://editor.swagger.io). It can also be generated programatically via [Swagger Server Stub Generator](https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto) and included into CI workflow.
 
 # Test Case and Test Result:
-№ | Test Script                                                                                                            | Test description        | Run Result                                                                                                       
+№ | Test Script                                                                                                           | Test description        | Run Result                                                                                                       
 --| -----------------------------------------------------------------------------------------------------------------------| ------------------------|-------------------------------------------------------------------------------------------------------------------------- 
-1 | [test_restaurants_add_and_get.py](https://github.com/alderven/restaurants/blob/master/test_restaurants_add_and_get.py) | Add and get restaurants | [Passed](https://cdn.rawgit.com/alderven/restaurants/master/allure-report/index.html#behaviors/cc1460ab704b97cd9991bc6dd4123a2c/fdde9a10c123267e/)
+1 | [test_restaurants_add_and_get.py](https://github.com/alderven/restaurants/blob/master/test_restaurants_add_and_get.py) | Add restaurant          | [Passed](https://cdn.rawgit.com/alderven/restaurants/master/allure-report/index.html#behaviors/3148d55dcb6490d60b498a03b4e46cc6/769e1442434ef5e6/)
+1 | [test_restaurants_add_and_get.py](https://github.com/alderven/restaurants/blob/master/test_restaurants_add_and_get.py) | Get restaurant          | [Passed](https://cdn.rawgit.com/alderven/restaurants/master/allure-report/index.html#behaviors/3148d55dcb6490d60b498a03b4e46cc6/a9c132eb634a248f/)
 
 # How to install
 1. Download and unzip [current project](https://github.com/alderven/restaurants/archive/master.zip)
